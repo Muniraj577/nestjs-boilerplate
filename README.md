@@ -45,6 +45,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Installing required packages for database
+
+```bash
+npm install --save @nestjs/typeorm typeorm mysql2
+npm install --save dotenv //to use .env file for constant values
+```
+
+## Creating the migration using typeorm
+```bash
+typeorm migration:create your_migration_name
+```
+
 ## Test
 
 ```bash
